@@ -1,4 +1,5 @@
- # Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.
+# Tugas 7
+# Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.
 
 Stateless widget: widget yang tidak membutuhkan kondisi mutable. Penampilan dan properti dari stateless widget tidak berubah.
 
@@ -33,3 +34,11 @@ saat mendefinisikan dengan keyword final kita tidak dapat mengganti kembali nila
 2. menambahkan button decrement dan membuat method decrement
 3. kemudian menambahkan case ganjil genap menggunakan method setText() yang mengembalikan text sesuai dengan kondisi
 4. untuk bonus saya menggunakan if else statement untuk memunculkan button decrement atau container kosong
+
+
+# Tugas 8
+# Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement.
+# Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+# Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
+# Jelaskan bagaimana cara kerja Navigator dalam "mengganti" halaman dari aplikasi Flutter.
+# Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
