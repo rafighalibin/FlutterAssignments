@@ -38,7 +38,23 @@ saat mendefinisikan dengan keyword final kita tidak dapat mengganti kembali nila
 
 # Tugas 8
 # Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement.
+- Navigator.push : Menambahkan rute ke stack
+- Navigator.pushReplacement : Menambahkan rute ke stack dan menghapus rute-rute sebelumnya
+
 # Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+- ListTile: menampilkan budget
+- ListView: menaruh list tile
+
 # Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
+- onPressed
+- onHover
+- onFocusChange
+
 # Jelaskan bagaimana cara kerja Navigator dalam "mengganti" halaman dari aplikasi Flutter.
+Halaman pada flutter bekerja seperti stack yang saling tumpuk, jika kita hendak pindah ke halaman lain maka ditambahkan rute yang berupa halaman ke stack. jika hendak kembali maka stack akan di pop.
+
 # Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+menambahkan form.dart dan mengimplementasikan filed yang dibutuhkan
+menghubungkan main dengan form menggunakan drawer yang sudah dibuat di method getDrawer()
+membuat class budget untuk menyimpan objek budget di array of budget nantinya
+pada budget_data.dart dilakukan pengambilan budgetArr dan dengan listView Builder melakukan iterasi untuk setiap objek di array sekaligus membuat budget tersebut ke listTile
