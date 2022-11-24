@@ -58,3 +58,14 @@ menambahkan form.dart dan mengimplementasikan filed yang dibutuhkan
 menghubungkan main dengan form menggunakan drawer yang sudah dibuat di method getDrawer()
 membuat class budget untuk menyimpan objek budget di array of budget nantinya
 pada budget_data.dart dilakukan pengambilan budgetArr dan dengan listView Builder melakukan iterasi untuk setiap objek di array sekaligus membuat budget tersebut ke listTile
+
+# Tugas 8
+# Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+hal tersebut dapat dilakukan dengan memasukkan data-data json kedalam map. Tidak karena akan lebih sulit pengambilan dan meng-assign data pada map, hal tersebut akan sama jika kita membuat program oop tanpa menggunakan class.
+# Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+Expanded, untuk membuat child widgetnya mengisi ruang pada mainaxis
+ListView.builder, Membuat array widget linier yang scrollable. widget yang dibuat dapat sesuai permintaan.
+ListTile, Membuat satu baris dengan tinggi tetap yang biasanya berisi beberapa teks serta ikon awal atau akhir.
+Align, Untuk mengatur posisi childnya
+# Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+# Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
