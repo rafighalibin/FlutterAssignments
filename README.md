@@ -63,9 +63,9 @@ pada budget_data.dart dilakukan pengambilan budgetArr dan dengan listView Builde
 # Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
 hal tersebut dapat dilakukan dengan memasukkan data-data json kedalam map. Tidak karena akan lebih sulit pengambilan dan meng-assign data pada map, hal tersebut akan sama jika kita membuat program oop tanpa menggunakan class.
 # Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
-- ListView.builder, Membuat array widget linier yang scrollable. widget yang dibuat dapat sesuai permintaan.
-- ListTile, Membuat satu baris dengan tinggi tetap yang biasanya berisi beberapa teks serta ikon awal atau akhir.
-- Align, Untuk mengatur posisi childnya
+- ListView.builder, Membuat array widget ListTile.
+- ListTile, Membuat baris yang berisi judul film.
+- Align, Untuk mengatur posisi child
 # Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
 mengambil data dengan mengirimkan GET ke link yang diberikan, kemudian respons yang berupa json akan dibentuk kedalam objek kemudian kumpulan objek akan dimasukkan kedalam list yang kemudian akan digunakan.
 # Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
